@@ -29,13 +29,6 @@ module.exports = {
       'error',
       'unix'
     ],
-    '@stylistic/js/quotes': [
-      'error',
-      'double'
-    ],
-    '@stylistic/js/semi': [
-      'error',
-    ],
     'indent': [
       'error',
       2
@@ -43,9 +36,6 @@ module.exports = {
     'linebreak-style': [
       'error',
       'unix'
-    ],
-    'semi': [
-      'error',
     ],
     'eqeqeq': 'error',
     'no-trailing-spaces': 'error',

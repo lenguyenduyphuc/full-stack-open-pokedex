@@ -21,6 +21,21 @@ module.exports = {
     '@stylistic/js'
   ],
   'rules': {
+    '@stylistic/js/indent': [
+      'error',
+      2
+    ],
+    '@stylistic/js/linebreak-style': [
+      'error',
+      'unix'
+    ],
+    '@stylistic/js/quotes': [
+      'error',
+      'double'
+    ],
+    '@stylistic/js/semi': [
+      'error',
+    ],
     'indent': [
       'error',
       2
@@ -29,13 +44,8 @@ module.exports = {
       'error',
       'unix'
     ],
-    'quotes': [
-      'error',
-      'single'
-    ],
     'semi': [
       'error',
-      'never'
     ],
     'eqeqeq': 'error',
     'no-trailing-spaces': 'error',
